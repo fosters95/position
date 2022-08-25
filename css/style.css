@@ -60,8 +60,15 @@ body {
 .block2 {
 	background-color: #5e5373;
 	color: white;
+	position: relative;
+	left: 50px;
+	top: 60px; 
+	z-index: 2;
 }
+
 .block3 {
+	position: relative;
+	z-index: 1;
 	background-color: #18b5a4;
 }
 
