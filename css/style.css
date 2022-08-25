@@ -45,6 +45,7 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	height: 800px;
+	position: relative;
 }
 
 .block div {
@@ -60,15 +61,15 @@ body {
 .block2 {
 	background-color: #5e5373;
 	color: white;
-	position: relative;
-	left: 50px;
-	top: 60px; 
-	z-index: 2;
+	position: absolute;
+	left:30px;
+	top:20px; 
+	width: 100%;
 }
 
 .block3 {
 	position: relative;
-	z-index: 1;
+	z-index:2;
 	background-color: #18b5a4;
 }
 
